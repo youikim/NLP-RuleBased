@@ -33,7 +33,7 @@ class Similar():
         longest = max(len(stringOne), len(stringTwo))
         return (longest - d) / longest
 
-    def Comparison(self, threshold, save_path, save_name, GenerateSentenceListPath="C:/Users/MB207-1/Desktop/8_29/8_27/Yuntech/3a_Rulebased/data/GenerateSentenceList(1).json", ReferenceSentenceListPath="C:/Users/MB207-1/Desktop/8_29/8_27/Yuntech/3a_Rulebased/data/ReferenceSentenceList.json"
+    def Comparison(self, threshold, save_path, save_name, GenerateSentenceListPath="ReferenceSentenceList.json"
                    ):
 
          # 替換後生成句的檔案
